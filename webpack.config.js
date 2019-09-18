@@ -24,5 +24,7 @@ module.exports = {
       template: "./src/index.html",
       filename: "./index.html"
     })
-  ]
+  ],
+  target: 'web',
+  node: { fs: 'empty' }
 };
