@@ -26,5 +26,11 @@ module.exports = {
     })
   ],
   target: 'web',
-  node: { fs: 'empty' }
+  devtool: "source-map",
+  node: {
+    console: true,
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
+  }
 };

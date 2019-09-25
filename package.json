@@ -1,5 +1,5 @@
 {
-  "name": "dns-webui",
+  "name": "services-registry-client",
   "version": "1.0.0",
   "description": "Web UI for DNS based service registry",
   "main": "index.js",
@@ -22,9 +22,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "style-loader": "^1.0.0",
+    "url-join": "^4.0.1",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1",
+    "whatwg-fetch": "^3.0.0",
     "zone-file": "^1.0.0"
   }
 }
